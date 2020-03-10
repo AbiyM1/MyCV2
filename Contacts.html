@@ -9,42 +9,68 @@
 <hr>
 <a href="index.html">Home</a>   |
 <a href="Contacts.html">Contacts</a>    |
+<a href="Gallery.html">Gallery</a>
+
+<input type="search" id="search" name="search" placeholder="Search Here">
 
 <h3>Contact Us</h3>
 
 <hr>
 <a href="" target="_blank">FACEBOOK</a>
-
-
-<form method="GET" action="mailto:abiymen15@gmail.com" enctype="utf-8">
-    <label for="fName">First Name:</label>
-<input type="text" id="fName" name="fName">
-    <label for="lName">Last Name:</label>
-<input type="text" id="lName" name="lName">
-
 <br>
-
-    <label for="Email">Email</label>
-<input type="email" id="Email" name="Email">
-
 <br>
-Continent:
-<select name="Country" id="">
-    <option value="Af">Africa</option>
-    <option value="Au">Australia</option>
-    <option value="EU">Europe</option>
-</select>
+<hr>
+
+    <form>
+        <table>
+            <tr>
+                <td><label for="fName">First Name:</label></tD>
+                <td><input type="text" id="fName" name="fName" pattern="[a-z]"></td>    
+             </tr>
+             <tr>
+                <td><label for="lName">Last Name:</label></td>
+                <td><input type="text" id="lName" name="lName" pattern="[a-z]"></td>
+             </tr>
+            
+             <tr>
+                <td><label for="Email">Email:</label></td>
+                <td> <input type="email" id="Email" name="Email" ></td>
+             </tr>
+                
+
+             <tr>
+                 <td>Continent:
+                    <select name="Country" id="">
+                        <option value="Af">Africa</option>
+                        <option value="Au">Australia</option>
+                        <option value="EU">Europe</option>
+                    </select>
+
+                 </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                    What do u want to say? <br>
+                    <textarea name="comment" id="" cols="30" rows="10"></textarea>
+                    
+                    <input type="submit" value="Submit">
+                                    
+                </td>
 
 
-<br>
+            </tr>
+            
+        </table>    
 
-What do u want to say? <br>
-<textarea name="comment" id="" cols="30" rows="10"></textarea>
+    </form> 
+    <label for="tel">Telephone:</label>
+    <input type="tel" id="tel" name="tel" placeholder="Type here">
 
-<input type="submit" value="Submit">
 
 
-</form>
+
 
 <hr>
 <p align = "center">Developed by Abiy Menberu &COPY;2020</p>
