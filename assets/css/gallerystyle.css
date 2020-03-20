@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+
+    line-height: 16px;
+}
+
+nav>ul {
+
+    display: flex;
+    flex-direction: row;
+}
+
+nav>ul>li {
+    padding: 8px;
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav>ul>li>a:hover {
+    border-bottom: 2px solid rgb(14, 14, 15);
+
+}
+
+body>h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5%;
+}
+
+span>ul>li {
+    list-style: none;
+}
+
+span>ul>li>img {
+    margin: 1.66667%;
+    height: 670px;
+    float: left;
+    width: 30%;
+}
