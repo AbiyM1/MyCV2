@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+span>div {
+    width: 700px;
+    margin-left: 30%;
+}
+span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+span>div>h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30%;
+    text-transform: uppercase;
+}
+span>div{
+    margin-top: 5%;
+}
+
+span>div>p {
+    font-family: 'Times New Roman', Times, serif
+}
+span>div>p>a{
+    text-decoration:none;
+    
+}
+header>nav>ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+header>nav>ul>li{
+    padding: 10px;
+    text-decoration: none;
+    
+}

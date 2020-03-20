@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+body>a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+#contact {
+    display: block;
+    width: fit-content;
+    margin-left: 650px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid black;
+}
+
+.box {
+
+    width: 600px;
+    height: 500px;
+    margin-left: 300px;
+    font-size: 18px;
+    margin-right: -200px;
+
+}
+
+.form {
+    margin-left: 2%;
+    margin-top: 3%;
+
+}
+
+#tele {
+    margin-left: 5px;
+}
+
+#lname {
+    margin-left: 2px;
+}
+
+#email {
+    margin-left: 38px;
+}
+
+.comment {
+
+    max-width: 300px;
+    max-height: 200px;
+    margin-left: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+
+}
+.empty{
+    border-bottom: 1px solid black;
+}
+.fname{
+
+    margin-top: 70px;
+}
+footer{
+    margin-top: 50px;
+}

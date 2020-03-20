@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav>ul {
+
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    float: left;
+}
+nav>ul>li{
+    padding: 8px;
+    list-style: none;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+span>img{
+    width: 80px;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+.span{
+    display: flex;
+    flex-direction: row;
+    width: 580px;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 5%;
+
+  
+}
+.empty{
+    border-bottom: 1px solid black;
+}
+span>div{
+    margin-top: 5em;
+}
+.interests{
+    margin-left: 15%;
+    width: 580px;
+}
