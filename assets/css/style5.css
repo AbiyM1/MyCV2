@@ -1,0 +1,18 @@
+td{
+   width: 200px;
+   height: 200px;
+}
+p{
+   text-align: center;
+}
+table{
+   margin: 10px auto;
+}
+.vertical{
+   border-right: 3px solid black;
+   border-left: 3px black solid;
+}
+.horizontal{
+   border-bottom: 3px black solid;
+   border-top: 3px solid black;
+}
