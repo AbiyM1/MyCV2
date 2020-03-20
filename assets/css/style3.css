@@ -20,7 +20,31 @@ a:visited {
     font-family: 'Times New Roman', Times, serif;
     border-bottom: 1px solid black;
 }
+nav {
 
+    line-height: 16px;
+}
+
+nav>ul {
+
+    display: flex;
+    flex-direction: row;
+}
+
+nav>ul>li {
+    padding: 8px;
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav>ul>li>a:hover {
+    border-bottom: 2px solid rgb(14, 14, 15);
+
+}
 .box {
 
     width: 600px;
